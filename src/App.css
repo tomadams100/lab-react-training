@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  padding: 2.5%;
+  margin: 2.5%;
+  border: 2px black solid;
+}
+.credit-card {
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 5px;
+}
+.number p {
+  font-size: 50px;
+}
+.bank-name {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 5%;
+}
+.card-info {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.owner {
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.driver-card {
+  width: 30%;
+}
+.profile-image img {
+  width: 20%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
